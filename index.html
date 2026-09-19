@@ -1,0 +1,1722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sacred Heart Cathedral | Catholic Archdiocese of Calabar</title>
+<meta name="description" content="Sacred Heart Cathedral, Catholic Archdiocese of Calabar. Mass times, sacraments, live stream, ministries, news and more. Welcome home.">
+<meta name="keywords" content="Sacred Heart Cathedral Calabar, Catholic Archdiocese of Calabar, Mass times Calabar, Catholic Church Calabar, Sacred Heart Cathedral Mass, Catholic Mass Calabar">
+<meta property="og:title" content="Sacred Heart Cathedral | Catholic Archdiocese of Calabar">
+<meta property="og:description" content="A sacred home of faith, worship and community in the Catholic Archdiocese of Calabar.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#6b1f2a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ===== DESIGN TOKENS ===== */
+:root{
+  --burgundy:#6b1f2a;
+  --burgundy-dark:#4e1620;
+  --burgundy-light:#8a2b38;
+  --ivory:#faf6ef;
+  --cream:#f3ecdf;
+  --white:#ffffff;
+  --charcoal:#2a2a2a;
+  --grey:#5a5a5a;
+  --grey-light:#e5e0d6;
+  --gold:#c9a227;
+  --gold-soft:#e3c766;
+  --shadow-sm:0 2px 10px rgba(42,42,42,.06);
+  --shadow-md:0 8px 30px rgba(42,42,42,.08);
+  --shadow-lg:0 20px 60px rgba(42,42,42,.12);
+  --shadow-xl:0 30px 80px rgba(42,42,42,.18);
+  --radius:6px;
+  --radius-lg:12px;
+  --max:1240px;
+  --serif:'Cormorant Garamond',Georgia,serif;
+  --sans:'Inter',system-ui,-apple-system,sans-serif;
+  --ease:cubic-bezier(.22,.61,.36,1);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--sans);color:var(--charcoal);background:var(--ivory);line-height:1.65;font-size:16px;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:600;line-height:1.2;color:var(--burgundy-dark);letter-spacing:.2px}
+h1{font-size:clamp(2.2rem,5vw,3.8rem)}
+h2{font-size:clamp(1.8rem,3.5vw,2.8rem)}
+h3{font-size:clamp(1.3rem,2vw,1.6rem)}
+p{color:var(--grey)}
+.container{max-width:var(--max);margin:0 auto;padding:0 24px}
+.section{padding:90px 0}
+.section-sm{padding:60px 0}
+.eyebrow{font-family:var(--sans);font-size:.75rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:14px}
+.section-head{max-width:720px;margin:0 auto 55px;text-align:center}
+.section-head p{margin-top:14px;font-size:1.05rem}
+.divider{width:60px;height:2px;background:var(--gold);margin:18px auto 0;border-radius:2px}
+
+/* ===== BUTTONS ===== */
+.btn{display:inline-flex;align-items:center;gap:9px;padding:14px 28px;border-radius:var(--radius);font-weight:600;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;transition:all .3s var(--ease);white-space:nowrap;border:1.5px solid transparent}
+.btn-primary{background:var(--burgundy);color:var(--white)}
+.btn-primary:hover{background:var(--burgundy-dark);transform:translateY(-2px);box-shadow:0 10px 25px rgba(107,31,42,.3)}
+.btn-gold{background:var(--gold);color:var(--burgundy-dark)}
+.btn-gold:hover{background:var(--gold-soft);transform:translateY(-2px);box-shadow:0 10px 25px rgba(201,162,39,.35)}
+.btn-outline{border-color:var(--burgundy);color:var(--burgundy);background:transparent}
+.btn-outline:hover{background:var(--burgundy);color:var(--white);transform:translateY(-2px)}
+.btn-ghost{color:var(--white);border-color:rgba(255,255,255,.5);background:rgba(255,255,255,.06);backdrop-filter:blur(6px)}
+.btn-ghost:hover{background:var(--white);color:var(--burgundy-dark);border-color:var(--white);transform:translateY(-2px)}
+.btn-sm{padding:10px 20px;font-size:.75rem}
+
+/* ===== TOP CONTACT BAR ===== */
+.topbar{background:var(--burgundy-dark);color:rgba(255,255,255,.85);font-size:.78rem;letter-spacing:.03em}
+.topbar .container{display:flex;justify-content:space-between;align-items:center;padding:9px 24px;flex-wrap:wrap;gap:10px}
+.topbar-left,.topbar-right{display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.topbar a{display:inline-flex;align-items:center;gap:7px;transition:color .25s}
+.topbar a:hover{color:var(--gold-soft)}
+.topbar svg{width:14px;height:14px;flex-shrink:0}
+
+/* ===== HEADER ===== */
+.header{position:sticky;top:0;z-index:1000;background:rgba(250,246,239,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--grey-light);transition:box-shadow .3s}
+.header.scrolled{box-shadow:var(--shadow-md)}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0;gap:20px;position:relative}
+.logo{display:flex;align-items:center;gap:14px;flex-shrink:0;margin-left:-30px}
+.logo img{
+  width: 80px;
+  height: 80px;
+}
+.logo-mark{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--burgundy),var(--burgundy-dark));display:grid;place-items:center;color:var(--gold-soft);font-family:var(--serif);font-size:1.4rem;font-weight:700;flex-shrink:0;box-shadow:0 4px 12px rgba(107,31,42,.25)}
+.logo-text{line-height:1.15}
+.logo-text strong{font-family:var(--serif);font-size:1.15rem;font-weight:600;color:var(--burgundy-dark);display:block;letter-spacing:.3px}
+.logo-text span{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--grey);font-weight:500}
+
+/* ===== MAIN NAV WITH DROPDOWNS ===== */
+.nav-menu{display:flex;align-items:center;gap:2px;list-style:none;justify-content:center;position:absolute;left:58%;transform:translateX(-50%)}
+.nav-item{position:relative}
+.nav-link{display:flex;align-items:center;gap:6px;font-size:.8rem;font-weight:500;color:var(--charcoal);padding:12px 13px;border-radius:var(--radius);transition:all .25s;letter-spacing:.02em;white-space:nowrap;cursor:pointer}
+.nav-link svg{width:10px;height:10px;transition:transform .3s var(--ease);flex-shrink:0;opacity:.55}
+.nav-link:hover,.nav-item:hover .nav-link{color:var(--burgundy);background:rgba(107,31,42,.05)}
+.nav-item:hover .nav-link svg{transform:rotate(180deg);opacity:1}
+.nav-item.active .nav-link{color:var(--burgundy);font-weight:600}
+
+/* Mega Dropdown — icons removed */
+.dropdown{position:absolute;top:calc(100% + 8px);left:50%;transform:translateX(-50%) translateY(10px);min-width:260px;background:var(--white);border-radius:var(--radius-lg);box-shadow:var(--shadow-xl);border:1px solid var(--grey-light);padding:14px;opacity:0;visibility:hidden;transition:all .3s var(--ease);z-index:1100;pointer-events:none}
+.dropdown::before{content:'';position:absolute;top:-6px;left:50%;transform:translateX(-50%) rotate(45deg);width:12px;height:12px;background:var(--white);border-top:1px solid var(--grey-light);border-left:1px solid var(--grey-light)}
+.nav-item:hover .dropdown{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0);pointer-events:auto}
+.dropdown-head{font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);padding:6px 14px 10px;margin-bottom:6px;border-bottom:1px solid var(--grey-light)}
+.dropdown a{display:flex;align-items:center;gap:11px;padding:10px 14px;border-radius:var(--radius);font-size:.85rem;color:var(--charcoal);transition:all .2s;font-weight:500}
+.dropdown a:hover{background:var(--ivory);color:var(--burgundy);padding-left:18px}
+.dropdown a svg{display:none}
+.dropdown.wide{min-width:340px;display:grid;grid-template-columns:1fr 1fr;gap:4px}
+.dropdown.wide .dropdown-head{grid-column:1/-1}
+.dropdown.wide a{padding:10px 12px}
+
+/* Nav CTA */
+.nav-cta{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.live-dot{width:8px;height:8px;border-radius:50%;background:#e63946;display:inline-block;animation:pulse 1.8s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(230,57,70,.6)}70%{box-shadow:0 0 0 10px rgba(230,57,70,0)}100%{box-shadow:0 0 0 0 rgba(230,57,70,0)}}
+.hamburger{display:none;flex-direction:column;gap:5px;padding:8px;border-radius:4px}
+.hamburger span{width:24px;height:2px;background:var(--burgundy-dark);border-radius:2px;transition:all .3s var(--ease)}
+.hamburger.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+.hamburger.active span:nth-child(2){opacity:0}
+.hamburger.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+
+/* ===== HERO SLIDER ===== */
+.hero{position:relative;min-height:88vh;display:flex;align-items:center;overflow:hidden;background:#111}
+.hero-slides{position:absolute;inset:0;z-index:0}
+.hero-slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transform:scale(1.04);transition:opacity 1s ease,transform 7s ease}
+.hero-slide.active{opacity:1;transform:scale(1)}
+/* Softer overlay that fades into the background */
+.hero-overlay{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden}
+.hero-overlay::before{content:'';position:absolute;left:0;top:0;width:70%;height:100%;background:linear-gradient(90deg,rgba(0,0,0,.85) 0%,rgba(0,0,0,.65) 35%,rgba(0,0,0,.30) 60%,rgba(0,0,0,.10) 80%,rgba(0,0,0,0) 100%);clip-path:ellipse(100% 100% at -5% 50%)}
+.hero-content{position:relative;z-index:2;max-width:720px;padding:100px 0}
+.hero .eyebrow{color:var(--gold-soft)}
+.hero h1{color:var(--white);margin-bottom:20px;font-weight:500}
+.hero h1 em{font-style:normal;color:var(--gold-soft);display:block;font-size:.55em;margin-top:8px;letter-spacing:.05em}
+.hero p{color:rgba(255,255,255,.88);font-size:1.08rem;margin-bottom:14px;max-width:600px}
+.hero-quote{border-left:3px solid var(--gold);padding-left:20px;margin:26px 0 32px;font-family:var(--serif);font-size:1.15rem;font-style:italic;color:rgba(255,255,255,.92)}
+.hero-quote cite{display:block;font-family:var(--sans);font-style:normal;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-soft);margin-top:10px}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap}
+.hero-controls{position:absolute;right:34px;bottom:34px;z-index:4;display:flex;align-items:center;gap:10px}
+.hero-arrow{width:44px;height:44px;border:1px solid rgba(255,255,255,.5);border-radius:50%;display:grid;place-items:center;color:#fff;background:rgba(0,0,0,.28);backdrop-filter:blur(5px);transition:all .25s}
+.hero-arrow:hover{background:#000;border-color:var(--gold);color:var(--gold-soft)}
+.hero-dots{display:flex;gap:7px;margin:0 6px}
+.hero-dot{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.45);border:1px solid rgba(255,255,255,.7);padding:0;transition:all .3s}
+.hero-dot.active{width:28px;border-radius:10px;background:var(--gold);border-color:var(--gold)}
+.hero-scroll{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);z-index:3;color:rgba(255,255,255,.6);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;display:flex;flex-direction:column;align-items:center;gap:8px}
+.hero-scroll::after{content:'';width:1px;height:36px;background:linear-gradient(to bottom,rgba(255,255,255,.6),transparent)}
+@media(max-width:768px){
+  .hero{min-height:78vh}
+  .hero-overlay::before{width:100%;height:72%;top:auto;bottom:0;background:linear-gradient(0deg,rgba(0,0,0,.85) 0%,rgba(0,0,0,.60) 45%,rgba(0,0,0,.20) 78%,rgba(0,0,0,0) 100%);clip-path:ellipse(100% 88% at 30% 100%)}
+  .hero-content{padding:70px 0 120px}
+  .hero-controls{right:18px;bottom:24px}
+  .hero-arrow{width:38px;height:38px}
+}
+
+/* ===== ANNOUNCEMENT BAR ===== */
+.announce{background:var(--burgundy);color:var(--white);padding:0;overflow:hidden}
+.announce-inner{display:flex;align-items:center;gap:20px;padding:14px 0}
+.announce-label{display:flex;align-items:center;gap:9px;font-size:.72rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--gold-soft);flex-shrink:0;padding-right:20px;border-right:1px solid rgba(255,255,255,.2)}
+.announce-track{flex:1;overflow:hidden;position:relative;height:24px}
+.announce-slide{position:absolute;inset:0;display:flex;align-items:center;font-size:.88rem;opacity:0;transform:translateY(10px);transition:opacity .5s,transform .5s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.announce-slide.active{opacity:1;transform:translateY(0)}
+.announce-slide a{color:var(--white);border-bottom:1px dotted rgba(255,255,255,.5)}
+.announce-slide a:hover{color:var(--gold-soft)}
+.announce .btn{flex-shrink:0}
+
+/* ===== MASS TIMES ===== */
+.mass-section{background:var(--white)}
+.mass-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:30px;margin-bottom:40px}
+.mass-card{background:var(--ivory);border:1px solid var(--grey-light);border-radius:var(--radius-lg);padding:36px;position:relative;overflow:hidden;transition:transform .4s var(--ease),box-shadow .4s}
+.mass-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
+.mass-card::before{content:'';position:absolute;top:0;left:0;width:100%;height:4px;background:linear-gradient(90deg,var(--burgundy),var(--gold))}
+.mass-card h3{display:flex;align-items:center;gap:12px;margin-bottom:22px;padding-bottom:18px;border-bottom:1px solid var(--grey-light)}
+.mass-card h3 svg{width:22px;height:22px;color:var(--gold)}
+.mass-list{list-style:none;display:flex;flex-direction:column;gap:2px}
+.mass-row{display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px dashed var(--grey-light);gap:14px}
+.mass-row:last-child{border-bottom:none}
+.mass-time{font-family:var(--serif);font-weight:600;font-size:1.1rem;color:var(--burgundy);flex-shrink:0;min-width:78px}
+.mass-place{font-size:.88rem;color:var(--grey);text-align:right}
+.mass-day-label{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin:18px 0 6px}
+.mass-day-label:first-child{margin-top:0}
+.sacraments-mini{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.mini-card{background:var(--ivory);border:1px solid var(--grey-light);border-radius:var(--radius);padding:20px;display:flex;gap:14px;align-items:flex-start;transition:all .3s var(--ease)}
+.mini-card:hover{border-color:var(--gold);background:var(--white);transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+.mini-card svg{width:20px;height:20px;color:var(--burgundy);flex-shrink:0;margin-top:3px}
+.mini-card strong{display:block;font-size:.92rem;color:var(--burgundy-dark);margin-bottom:3px;font-weight:600}
+.mini-card span{font-size:.82rem;color:var(--grey);line-height:1.5}
+
+/* ===== SACRAMENT CARDS ===== */
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:26px}
+.sacrament-card{background:var(--white);border:1px solid var(--grey-light);border-radius:var(--radius-lg);padding:34px 30px;transition:all .4s var(--ease);position:relative;overflow:hidden}
+.sacrament-card::after{content:'';position:absolute;bottom:0;left:0;width:100%;height:3px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .4s var(--ease)}
+.sacrament-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg);border-color:transparent}
+.sacrament-card:hover::after{transform:scaleX(1)}
+.sacrament-icon{width:54px;height:54px;border-radius:50%;background:var(--ivory);display:grid;place-items:center;margin-bottom:20px;color:var(--burgundy);border:1px solid var(--grey-light)}
+.sacrament-icon svg{width:24px;height:24px}
+.sacrament-card h3{margin-bottom:12px;font-size:1.3rem}
+.sacrament-card p{font-size:.92rem;margin-bottom:20px}
+.learn-more{font-size:.8rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--burgundy);display:inline-flex;align-items:center;gap:7px;transition:gap .3s}
+.learn-more:hover{gap:12px;color:var(--gold)}
+
+/* ===== CLERGY ===== */
+.clergy-section{background:var(--charcoal);color:var(--white)}
+.clergy-section h2,.clergy-section .section-head h2{color:var(--white)}
+.clergy-section .section-head p{color:rgba(255,255,255,.7)}
+.clergy-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px}
+.clergy-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:var(--radius-lg);overflow:hidden;transition:all .4s var(--ease)}
+.clergy-card:hover{transform:translateY(-6px);border-color:var(--gold);background:rgba(255,255,255,.07)}
+.clergy-photo{aspect-ratio:1/1;background:linear-gradient(135deg,var(--burgundy),var(--burgundy-dark));display:grid;place-items:center;position:relative;overflow:hidden}
+.clergy-photo::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 30% 30%,rgba(201,162,39,.25),transparent 60%)}
+.clergy-initials{font-family:var(--serif);font-size:3.2rem;color:var(--gold-soft);font-weight:600;position:relative;z-index:1}
+.clergy-info{padding:24px 22px}
+.clergy-info h3{color:var(--white);font-size:1.15rem;margin-bottom:6px}
+.clergy-info .role{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-soft);font-weight:600}
+.clergy-sub{margin-top:40px;padding-top:36px;border-top:1px solid rgba(255,255,255,.1);display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.staff-card{display:flex;align-items:center;gap:16px;padding:18px;border-radius:var(--radius);background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);transition:all .3s}
+.staff-card:hover{border-color:var(--gold);background:rgba(255,255,255,.07)}
+.staff-avatar{width:48px;height:48px;border-radius:50%;background:var(--burgundy);display:grid;place-items:center;color:var(--gold-soft);font-family:var(--serif);font-size:1.2rem;font-weight:600;flex-shrink:0}
+.staff-card strong{display:block;color:var(--white);font-size:.95rem;font-weight:600}
+.staff-card span{font-size:.78rem;color:rgba(255,255,255,.6)}
+
+/* ===== OFFICE HOURS ===== */
+.office-card{background:var(--white);border-radius:var(--radius-lg);padding:44px;box-shadow:var(--shadow-md);border-top:4px solid var(--gold);max-width:920px;margin:0 auto}
+.office-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:30px;margin-top:28px}
+.office-item{padding:22px;background:var(--ivory);border-radius:var(--radius);border-left:3px solid var(--burgundy)}
+.office-item h4{font-family:var(--sans);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--burgundy);margin-bottom:10px;font-weight:700}
+.office-item .days{font-size:.88rem;color:var(--charcoal);font-weight:500;margin-bottom:6px}
+.office-item .time{font-family:var(--serif);font-size:1.3rem;color:var(--burgundy-dark);font-weight:600}
+
+/* ===== LIVE STREAM ===== */
+.live-section{background:linear-gradient(135deg,var(--burgundy-dark),var(--burgundy));color:var(--white);position:relative;overflow:hidden}
+.live-section::before{content:'';position:absolute;top:-50%;right:-10%;width:600px;height:600px;background:radial-gradient(circle,rgba(201,162,39,.12),transparent 70%);border-radius:50%}
+.live-section h2{color:var(--white)}
+.live-section .section-head p{color:rgba(255,255,255,.75)}
+.live-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:center;position:relative;z-index:1}
+.live-player{aspect-ratio:16/9;background:var(--charcoal);border-radius:var(--radius-lg);overflow:hidden;position:relative;box-shadow:var(--shadow-lg);border:1px solid rgba(255,255,255,.15)}
+.live-player iframe{width:100%;height:100%;border:0}
+.live-player-placeholder{position:absolute;inset:0;display:grid;place-items:center;background:linear-gradient(135deg,#1a1a1a,#2a2a2a);text-align:center;padding:30px}
+.live-player-placeholder svg{width:70px;height:70px;color:var(--gold);opacity:.5;margin:0 auto 20px}
+.live-player-placeholder h3{color:var(--white);margin-bottom:8px}
+.live-player-placeholder p{color:rgba(255,255,255,.6);font-size:.9rem}
+.live-status{position:absolute;top:16px;left:16px;background:#e63946;color:var(--white);padding:7px 14px;border-radius:4px;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;display:flex;align-items:center;gap:7px;z-index:2}
+.live-info h3{color:var(--white);margin-bottom:18px;font-size:1.7rem}
+.live-info p{color:rgba(255,255,255,.75);margin-bottom:24px}
+.countdown{display:flex;gap:14px;margin-bottom:28px}
+.countdown-item{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:var(--radius);padding:14px 18px;text-align:center;min-width:70px}
+.countdown-item .num{font-family:var(--serif);font-size:1.8rem;font-weight:600;color:var(--gold-soft);line-height:1;display:block}
+.countdown-item .label{font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.6);margin-top:5px}
+.live-actions{display:flex;gap:12px;flex-wrap:wrap}
+
+/* ===== SPIRITUAL CORNER ===== */
+.spiritual-section{background:var(--cream)}
+.spiritual-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:26px}
+.spiritual-card{background:var(--white);border-radius:var(--radius-lg);padding:34px 30px;border:1px solid var(--grey-light);transition:all .4s var(--ease);position:relative}
+.spiritual-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg)}
+.spiritual-tag{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);background:var(--ivory);padding:6px 12px;border-radius:20px;margin-bottom:18px;border:1px solid var(--grey-light)}
+.spiritual-card h3{margin-bottom:14px;font-size:1.35rem}
+.spiritual-card p{font-size:.93rem;margin-bottom:22px}
+.spiritual-card .quote{font-family:var(--serif);font-style:italic;font-size:1.05rem;color:var(--burgundy);border-left:2px solid var(--gold);padding-left:16px;margin:16px 0}
+
+/* ===== NEWS ===== */
+.news-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:28px}
+.news-card{background:var(--white);border-radius:var(--radius-lg);overflow:hidden;border:1px solid var(--grey-light);transition:all .4s var(--ease);display:flex;flex-direction:column}
+.news-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg);border-color:transparent}
+.news-image{aspect-ratio:16/10;background:linear-gradient(135deg,var(--burgundy),var(--burgundy-light));position:relative;overflow:hidden}
+.news-image img{width:100%;height:100%;object-fit:cover;transition:transform .6s var(--ease)}
+.news-card:hover .news-image img{transform:scale(1.06)}
+.news-image .placeholder{position:absolute;inset:0;display:grid;place-items:center;color:rgba(255,255,255,.4)}
+.news-image .placeholder svg{width:48px;height:48px}
+.news-cat{position:absolute;top:14px;left:14px;background:var(--gold);color:var(--burgundy-dark);padding:6px 12px;border-radius:4px;font-size:.65rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;z-index:2}
+.news-body{padding:26px 24px;display:flex;flex-direction:column;flex:1}
+.news-date{font-size:.75rem;color:var(--grey);letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px;font-weight:500}
+.news-body h3{font-size:1.25rem;margin-bottom:12px;line-height:1.3}
+.news-body p{font-size:.9rem;flex:1;margin-bottom:18px}
+
+/* ===== MINISTRIES ===== */
+.ministries-section{background:var(--white)}
+.ministry-cat{margin-bottom:50px}
+.ministry-cat h3{display:flex;align-items:center;gap:14px;margin-bottom:24px;font-size:1.4rem;padding-bottom:14px;border-bottom:1px solid var(--grey-light)}
+.ministry-cat h3::before{content:'';width:8px;height:8px;background:var(--gold);border-radius:50%}
+.ministry-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.ministry-card{background:var(--ivory);border:1px solid var(--grey-light);border-radius:var(--radius);padding:20px 22px;transition:all .3s var(--ease);display:flex;align-items:center;gap:14px}
+.ministry-card:hover{background:var(--burgundy);color:var(--white);border-color:var(--burgundy);transform:translateX(4px)}
+.ministry-card:hover .ministry-abbr{background:var(--gold);color:var(--burgundy-dark)}
+.ministry-card:hover strong{color:var(--white)}
+.ministry-abbr{width:44px;height:44px;border-radius:50%;background:var(--white);border:1px solid var(--grey-light);display:grid;place-items:center;font-family:var(--serif);font-size:.78rem;font-weight:700;color:var(--burgundy);flex-shrink:0;transition:all .3s}
+.ministry-card strong{font-size:.9rem;font-weight:600;color:var(--charcoal);transition:color .3s;line-height:1.35}
+
+/* ===== GIVING ===== */
+.giving-section{background:linear-gradient(135deg,var(--charcoal),#1a1a1a);color:var(--white);position:relative;overflow:hidden}
+.giving-section::before{content:'';position:absolute;bottom:-30%;left:-5%;width:500px;height:500px;background:radial-gradient(circle,rgba(201,162,39,.1),transparent 70%);border-radius:50%}
+.giving-inner{display:grid;grid-template-columns:1.1fr 1fr;gap:50px;align-items:center;position:relative;z-index:1}
+.giving-section h2{color:var(--white)}
+.giving-section p{color:rgba(255,255,255,.75);margin-bottom:16px}
+.giving-features{list-style:none;margin:26px 0 32px;display:flex;flex-direction:column;gap:12px}
+.giving-features li{display:flex;align-items:center;gap:12px;color:rgba(255,255,255,.85);font-size:.95rem}
+.giving-features svg{width:18px;height:18px;color:var(--gold);flex-shrink:0}
+.giving-visual{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.giving-stat{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--radius-lg);padding:26px;text-align:center;transition:all .3s}
+.giving-stat:hover{border-color:var(--gold);background:rgba(255,255,255,.08)}
+.giving-stat svg{width:28px;height:28px;color:var(--gold);margin:0 auto 12px}
+.giving-stat strong{display:block;font-family:var(--serif);font-size:1.15rem;color:var(--white);margin-bottom:5px}
+.giving-stat span{font-size:.78rem;color:rgba(255,255,255,.6)}
+
+/* ===== HISTORY TIMELINE ===== */
+.timeline{position:relative;max-width:880px;margin:0 auto;padding:20px 0}
+.timeline::before{content:'';position:absolute;left:50%;top:0;bottom:0;width:2px;background:var(--grey-light);transform:translateX(-50%)}
+.timeline-item{position:relative;display:grid;grid-template-columns:1fr 60px 1fr;gap:0;margin-bottom:40px;align-items:start}
+.timeline-item:nth-child(even) .timeline-content{grid-column:1;text-align:right}
+.timeline-item:nth-child(even) .timeline-spacer{grid-column:3}
+.timeline-item:nth-child(odd) .timeline-content{grid-column:3}
+.timeline-item:nth-child(odd) .timeline-spacer{grid-column:1}
+.timeline-dot{grid-column:2;justify-self:center;width:16px;height:16px;border-radius:50%;background:var(--gold);border:4px solid var(--ivory);box-shadow:0 0 0 2px var(--gold);margin-top:6px;position:relative;z-index:2}
+.timeline-content{background:var(--white);border:1px solid var(--grey-light);border-radius:var(--radius);padding:22px 24px;transition:all .3s}
+.timeline-content:hover{box-shadow:var(--shadow-md);border-color:var(--gold)}
+.timeline-year{font-family:var(--serif);font-size:1.5rem;color:var(--burgundy);font-weight:600;display:block;margin-bottom:6px}
+.timeline-content h4{font-size:1.05rem;margin-bottom:6px}
+.timeline-content p{font-size:.88rem;margin:0}
+
+/* ===== BULLETIN ===== */
+.bulletin-card{background:var(--white);border-radius:var(--radius-lg);padding:44px;box-shadow:var(--shadow-md);border:1px solid var(--grey-light);display:grid;grid-template-columns:auto 1fr auto;gap:32px;align-items:center;max-width:960px;margin:0 auto}
+.bulletin-icon{width:80px;height:80px;border-radius:var(--radius);background:var(--burgundy);display:grid;place-items:center;color:var(--gold-soft);flex-shrink:0}
+.bulletin-icon svg{width:36px;height:36px}
+.bulletin-info h3{margin-bottom:8px}
+.bulletin-info p{font-size:.9rem;margin:0}
+.bulletin-info .date{color:var(--burgundy);font-weight:600;font-family:var(--serif);font-size:1.1rem}
+
+/* ===== LOCATION ===== */
+.location-section{background:var(--white)}
+.location-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:0;border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-lg);border:1px solid var(--grey-light)}
+.location-info{padding:50px 44px;background:var(--ivory)}
+.location-info h2{margin-bottom:16px}
+.location-info p{margin-bottom:28px;font-size:.95rem}
+.location-detail{display:flex;gap:16px;margin-bottom:22px;align-items:flex-start}
+.location-detail svg{width:20px;height:20px;color:var(--burgundy);flex-shrink:0;margin-top:4px}
+.location-detail strong{display:block;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--burgundy);margin-bottom:4px;font-weight:700}
+.location-detail span{font-size:.92rem;color:var(--charcoal)}
+.location-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.location-map{min-height:480px;background:var(--grey-light);position:relative}
+.location-map iframe{width:100%;height:100%;border:0;position:absolute;inset:0}
+
+/* ===== FOOTER ===== */
+.footer{background:var(--burgundy-dark);color:rgba(255,255,255,.75);padding:70px 0 0}
+.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:44px;padding-bottom:50px;border-bottom:1px solid rgba(255,255,255,.1)}
+.footer-brand .logo-text strong{color:var(--white)}
+.footer-brand .logo-text span{color:rgba(255,255,255,.55)}
+.footer-brand p{margin-top:20px;font-size:.88rem;color:rgba(255,255,255,.6);max-width:300px}
+.footer-col h4{font-family:var(--sans);font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-soft);margin-bottom:22px;font-weight:700}
+.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:12px}
+.footer-col a{font-size:.88rem;color:rgba(255,255,255,.7);transition:all .25s;display:inline-flex;align-items:center;gap:8px}
+.footer-col a:hover{color:var(--gold-soft);transform:translateX(3px)}
+.footer-col .contact-item{display:flex;gap:10px;font-size:.88rem;color:rgba(255,255,255,.7);margin-bottom:12px;align-items:flex-start}
+.footer-col .contact-item svg{width:16px;height:16px;color:var(--gold-soft);flex-shrink:0;margin-top:3px}
+.social-links{display:flex;gap:12px;margin-top:6px}
+.social-links a{width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.07);display:grid;place-items:center;transition:all .3s}
+.social-links a:hover{background:var(--gold);color:var(--burgundy-dark);transform:translateY(-3px)}
+.social-links svg{width:18px;height:18px}
+.footer-bottom{padding:26px 0;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.footer-bottom p{font-size:.8rem;color:rgba(255,255,255,.5);margin:0}
+.footer-bottom .diocese{font-size:.8rem;color:rgba(255,255,255,.5)}
+
+/* ===== REVEAL ANIMATION ===== */
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal-delay-1{transition-delay:.1s}
+.reveal-delay-2{transition-delay:.2s}
+.reveal-delay-3{transition-delay:.3s}
+.reveal-left{opacity:0;transform:translateX(-40px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.reveal-left.visible{opacity:1;transform:translateX(0)}
+
+/* ===== MOBILE NAV ===== */
+.mobile-nav{position:fixed;top:0;right:-100%;width:min(400px,90vw);height:100vh;background:var(--ivory);z-index:1200;padding:24px 26px;transition:right .4s var(--ease);overflow-y:auto;box-shadow:-10px 0 40px rgba(0,0,0,.15)}
+.mobile-nav.open{right:0}
+.mobile-nav-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;padding-bottom:20px;border-bottom:1px solid var(--grey-light)}
+.mobile-nav-close{width:40px;height:40px;display:grid;place-items:center;border-radius:50%;background:var(--white);border:1px solid var(--grey-light);font-size:1.3rem;color:var(--burgundy)}
+.mobile-nav ul{list-style:none;display:flex;flex-direction:column;gap:2px}
+.mobile-group{border-bottom:1px solid var(--grey-light)}
+.mobile-group-toggle{width:100%;display:flex;justify-content:space-between;align-items:center;padding:15px 0;font-size:.95rem;font-weight:600;color:var(--charcoal);text-align:left;transition:color .25s}
+.mobile-group-toggle:hover{color:var(--burgundy)}
+.mobile-group-toggle svg{width:12px;height:12px;transition:transform .3s var(--ease);color:var(--gold)}
+.mobile-group-toggle.active svg{transform:rotate(180deg)}
+.mobile-submenu{max-height:0;overflow:hidden;transition:max-height .4s var(--ease);padding-left:14px}
+.mobile-submenu.open{max-height:600px}
+.mobile-submenu a{display:block;padding:11px 0 11px 14px;font-size:.86rem;color:var(--grey);border-bottom:1px dashed var(--grey-light);transition:all .25s}
+.mobile-submenu a:last-child{border-bottom:none}
+.mobile-submenu a:hover{color:var(--burgundy);padding-left:20px}
+.mobile-single{display:block;padding:15px 0;font-size:.95rem;font-weight:600;color:var(--charcoal);border-bottom:1px solid var(--grey-light);transition:color .25s}
+.mobile-single:hover{color:var(--burgundy)}
+.mobile-nav .btn{width:100%;justify-content:center;margin-top:24px}
+.overlay{position:fixed;inset:0;background:rgba(30,8,12,.5);z-index:1100;opacity:0;visibility:hidden;transition:all .4s}
+.overlay.active{opacity:1;visibility:visible}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:1180px){
+  .nav-link{padding:12px 9px;font-size:.76rem}
+  .logo-text strong{font-size:1.05rem}
+}
+@media(max-width:1024px){
+  .nav-menu{display:none}
+  .hamburger{display:flex}
+  .mass-grid{grid-template-columns:1fr}
+  .live-grid{grid-template-columns:1fr;gap:30px}
+  .giving-inner{grid-template-columns:1fr;gap:36px}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:36px}
+  .location-grid{grid-template-columns:1fr}
+  .location-map{min-height:320px}
+}
+@media(max-width:768px){
+  .section{padding:64px 0}
+  .section-sm{padding:44px 0}
+  .topbar{
+    display: none;
+  }
+  .topbar-left,.topbar-right{font-size:.72rem;gap:14px}
+  .topbar .container{padding:8px 18px}
+  .logo-mark{width:42px;height:42px;font-size:1.2rem}
+  .logo-text strong{font-size:1rem}
+  .logo-text span{font-size:.6rem}
+  .logo img{
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+  }
+  .nav{padding:12px 0}
+  .nav-cta .btn span{display:none}
+  .nav-cta .btn{padding:12px 14px}
+  .hero{min-height:auto;padding:80px 0 100px}
+  .hero-content{padding:20px 0}
+  .hero-actions{flex-direction:column}
+  .hero-actions .btn{width:100%;justify-content:center}
+  .announce-inner{flex-direction:column;align-items:flex-start;gap:10px;padding:14px 0}
+  .announce-label{border-right:none;padding-right:0;padding-bottom:8px}
+  .announce .btn{width:100%;justify-content:center}
+  .mass-card{padding:26px 22px}
+  .mass-row{flex-direction:column;align-items:flex-start;gap:2px}
+  .mass-place{text-align:left}
+  .office-card{padding:30px 24px}
+  .clergy-grid{grid-template-columns:repeat(auto-fit,minmax(160px,1fr))}
+  .bulletin-card{grid-template-columns:1fr;gap:24px;padding:30px 24px;text-align:center}
+  .bulletin-icon{margin:0 auto}
+  .bulletin-info .btn{width:100%;justify-content:center}
+  .timeline::before{left:18px}
+  .timeline-item{grid-template-columns:36px 1fr;gap:14px}
+  .timeline-item:nth-child(even) .timeline-content,.timeline-item:nth-child(odd) .timeline-content{grid-column:2;text-align:left}
+  .timeline-item:nth-child(even) .timeline-spacer,.timeline-item:nth-child(odd) .timeline-spacer{display:none}
+  .timeline-dot{grid-column:1;justify-self:start;margin-left:10px}
+  .footer-grid{grid-template-columns:1fr;gap:30px}
+  .footer-bottom{flex-direction:column;text-align:center}
+  .giving-visual{grid-template-columns:1fr}
+  .location-info{padding:34px 26px}
+  .countdown{gap:8px}
+  .countdown-item{padding:10px 12px;min-width:58px}
+  .countdown-item .num{font-size:1.4rem}
+  .live-actions{flex-direction:column}
+  .live-actions .btn{width:100%;justify-content:center}
+}
+@media(max-width:480px){
+  .container{padding:0 18px}
+  .cards-grid,.news-grid,.spiritual-grid{grid-template-columns:1fr}
+  .ministry-grid{grid-template-columns:1fr}
+  .office-grid{grid-template-columns:1fr}
+  .clergy-grid{grid-template-columns:1fr 1fr}
+  h1{font-size:2rem}
+}
+
+/* Accessibility */
+a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+</style>
+</head>
+<body>
+
+<!-- ===== TOP CONTACT BAR ===== -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <a href="tel:[Official Phone Number]">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        [Official Phone Number]
+      </a>
+      <a href="https://wa.me/[Official WhatsApp Number]" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.9 11.9L4 20l4.2-1.1a7.9 7.9 0 0 0 3.85 1h.01a7.94 7.94 0 0 0 5.54-13.58zM12.05 18.5h-.01a6.6 6.6 0 0 1-3.36-.92l-.24-.14-2.5.65.67-2.43-.16-.25a6.6 6.6 0 0 1 10.27-8.2 6.6 6.6 0 0 1-4.67 11.29z"/></svg>
+        WhatsApp
+      </a>
+      <a href="mailto:[Parish Email]">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+        [Parish Email]
+      </a>
+    </div>
+    <div class="topbar-right">
+      <a href="[Official Facebook Handle]" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        Facebook
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== HEADER ===== -->
+<header class="header" id="header">
+  <div class="container">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Sacred Heart Cathedral home">
+       <img src="images\ChatGPT Image Sep 19, 2026, 02_44_41 AM.png">
+        <div class="logo-text">
+          <strong>Sacred Heart Cathedral</strong>
+          <span>Catholic Archdiocese of Calabar</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <!-- HOME -->
+        <li class="nav-item">
+          <a href="#home" class="nav-link">
+            Home
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg>
+          </a>
+          <div class="dropdown">
+            <div class="dropdown-head">Explore Home</div>
+           
+            <a href="#announcements">Announcements</a>
+            <a href="#mass">Mass Times</a>
+            <a href="#sacraments">Sacraments &amp; Formation</a>
+            <a href="#about">Clergy &amp; Parish Staff</a>
+            <a href="#live">Live Stream</a>
+            <a href="#reflections">Spiritual Corner</a>
+            <a href="#news">News &amp; Events</a>
+            <a href="#ministries">Ministries &amp; Societies</a>
+            <a href="#giving">Giving</a>
+            <a href="#history">History / Architecture</a>
+            <a href="#bulletin">Bulletin</a>
+            <a href="#location">Location</a>
+          </div>
+        </li>
+
+        <!-- ABOUT US -->
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">
+            About Us
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg>
+          </a>
+          <div class="dropdown">
+            <div class="dropdown-head">About the Cathedral</div>
+            <a href="about.html#history">Cathedral History</a>
+            <a href="about.html#about">Our Archbishop</a>
+            <a href="about.html#about">Clergy &amp; Staff</a>
+            <a href="about.html#history">Cathedral Architecture</a>
+            <a href="about.html#about">Gallery</a>
+          </div>
+        </li>
+
+        <!-- MASS & SACRAMENTS -->
+        <li class="nav-item">
+          <a href="mass.html" class="nav-link">
+            Mass &amp; Sacraments
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg>
+          </a>
+          <div class="dropdown wide">
+            <div class="dropdown-head">Mass &amp; Sacraments</div>
+            <a href="#mass">Mass Times</a>
+            <a href="#sacraments">Confession</a>
+            <a href="#sacraments">Baptism</a>
+            <a href="#sacraments">Confirmation</a>
+            <a href="#sacraments">First Holy Communion</a>
+            <a href="#sacraments">Matrimony</a>
+            <a href="#sacraments">Catechism</a>
+            <a href="#mass-intention">Mass Intentions</a>
+          </div>
+        </li>
+
+        <!-- MINISTRIES & GROUPS -->
+        <li class="nav-item">
+          <a href="ministries.html" class="nav-link">
+            Ministries &amp; Groups
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg>
+          </a>
+          <div class="dropdown wide">
+            <div class="dropdown-head">Ministries &amp; Societies</div>
+            <a href="#ministries">Lay Movements</a>
+            <a href="#ministries">Pious Societies</a>
+            <a href="#ministries">Liturgical Groups</a>
+            <a href="#ministries">Charitable Groups</a>
+          </div>
+        </li>
+
+        <!-- REFLECTIONS -->
+        <li class="nav-item">
+          <a href="reflections.html" class="nav-link">
+            Reflections
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg>
+          </a>
+          <div class="dropdown">
+            <div class="dropdown-head">Spiritual Life</div>
+            <a href="#reflections">Saint of the Day</a>
+            <a href="#reflections">Sunday Reflections</a>
+            <a href="#reflections">Homilies</a>
+            <a href="#reflections">Spiritual Resources</a>
+          </div>
+        </li>
+
+        <!-- GIVING -->
+        <li class="nav-item">
+          <a href="giving.html" class="nav-link">
+            Giving
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg>
+          </a>
+          <div class="dropdown">
+            <div class="dropdown-head">Support the Mission</div>
+            <a href="#giving">Tithe / Offering</a>
+            <a href="#giving">Projects</a>
+            <a href="#giving">Maintenance</a>
+            <a href="#giving">Annual Harvest</a>
+          </div>
+        </li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="#live" class="btn btn-primary btn-sm"><span class="live-dot" aria-hidden="true"></span> <span>Watch Live</span></a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== MOBILE NAV ===== -->
+<div class="overlay" id="overlay"></div>
+<aside class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+  <div class="mobile-nav-header">
+    <div class="logo">
+      <img src="images\ChatGPT Image Sep 19, 2026, 02_44_41 AM.png">
+      <div class="logo-text">
+        <strong>Sacred Heart</strong>
+        <span>Cathedral, Calabar</span>
+      </div>
+    </div>
+    <button class="mobile-nav-close" id="mobileClose" aria-label="Close menu">✕</button>
+  </div>
+
+  <ul>
+    <!-- HOME group -->
+    <li class="mobile-group">
+      <button class="mobile-group-toggle" data-target="mob-home">
+        Home
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <div class="mobile-submenu" id="mob-home">
+       
+        <a href="#announcements">Announcements</a>
+        <a href="#mass">Mass Times</a>
+        <a href="#sacraments">Sacraments &amp; Formation</a>
+        <a href="#about">Clergy &amp; Parish Staff</a>
+        <a href="#live">Live Stream</a>
+        <a href="#reflections">Spiritual Corner</a>
+        <a href="#news">News &amp; Events</a>
+        <a href="#ministries">Ministries &amp; Societies</a>
+        <a href="#giving">Giving</a>
+        <a href="#history">History / Architecture</a>
+        <a href="#bulletin">Bulletin</a>
+        <a href="#location">Location</a>
+      </div>
+    </li>
+
+    <!-- ABOUT US -->
+    <li class="mobile-group">
+      <button class="mobile-group-toggle" data-target="mob-about">
+        About Us
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <div class="mobile-submenu" id="mob-about">
+        <a href="about.html#about">Cathedral History</a>
+        <a href="about.html#about">Our Archbishop</a>
+        <a href="about.html#about">Clergy &amp; Staff</a>
+        <a href="about.html#history">Cathedral Architecture</a>
+        <a href="about,html#history">Gallery</a>
+      </div>
+    </li>
+
+    <!-- MASS & SACRAMENTS -->
+    <li class="mobile-group">
+      <button class="mobile-group-toggle" data-target="mob-mass">
+        Mass &amp; Sacraments
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <div class="mobile-submenu" id="mob-mass">
+        <a href="mass.html#mass">Mass Times</a>
+        <a href="mass.html#sacraments">Confession</a>
+        <a href="mass.html#sacraments">Baptism</a>
+        <a href="mass.html#sacraments">Confirmation</a>
+        <a href="mass.html#sacraments">First Holy Communion</a>
+        <a href="mass.html#sacraments">Matrimony</a>
+        <a href="mass.html#sacraments">Catechism</a>
+        <a href="mass.html#mass-intention">Mass Intentions</a>
+      </div>
+    </li>
+
+    <!-- MINISTRIES & GROUPS -->
+    <li class="mobile-group">
+      <button class="mobile-group-toggle" data-target="mob-ministries">
+        Ministries &amp; Groups
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <div class="mobile-submenu" id="mob-ministries">
+        <a href="ministries.html#ministries">Lay Movements</a>
+        <a href="mimistries.html#ministries">Pious Societies</a>
+        <a href="ministries.html#ministries">Liturgical Groups</a>
+        <a href="ministries.html#ministries">Charitable Groups</a>
+      </div>
+    </li>
+
+    <!-- REFLECTIONS -->
+    <li class="mobile-group">
+      <button class="mobile-group-toggle" data-target="mob-reflections">
+        Reflections
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <div class="mobile-submenu" id="mob-reflections">
+        <a href="reflections.html#reflections">Saint of the Day</a>
+        <a href="reflections.html#reflections">Sunday Reflections</a>
+        <a href="reflections.html#reflections">Homilies</a>
+        <a href="reflections.html#reflections">Spiritual Resources</a>
+      </div>
+    </li>
+
+    <!-- GIVING -->
+    <li class="mobile-group">
+      <button class="mobile-group-toggle" data-target="mob-giving">
+        Giving
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <div class="mobile-submenu" id="mob-giving">
+        <a href="giving.html#giving">Tithe / Offering</a>
+        <a href="giving.html#giving">Projects</a>
+        <a href="giving.html#giving">Maintenance</a>
+        <a href="giving.html#giving">Annual Harvest</a>
+      </div>
+    </li>
+  </ul>
+
+  <a href="#live" class="btn btn-primary"><span class="live-dot"></span> Watch Live</a>
+</aside>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="hero-slides" aria-label="Cathedral image slider">
+    <div class="hero-slide active" style="background-image:url('images/ee1a9f6f-80fb-4654-8f67-1c616587bb09.jpg')" role="img" aria-label="Sacred Heart Cathedral interior with altar and stained glass"></div>
+    <div class="hero-slide" style="background-image:url('images/20409b23-2026-4120-8754-4d3040352ef3.jpg')" role="img" aria-label="Catholic cathedral interior"></div>
+    <div class="hero-slide" style="background-image:url('images/bbf3e7fa-9b65-44f7-9f96-882a31e4a5d3.jpg')" role="img" aria-label="Cathedral architecture and stained glass"></div>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="container">
+    <div class="hero-content">
+      <span class="eyebrow reveal-left">Welcome to Sacred Heart Cathedral</span>
+      <h1 class="reveal-left">Catholic Archdiocese of Calabar<em>A Sacred Home of Faith, Worship &amp; Community</em></h1>
+      <p class="reveal-left reveal-delay-1">We welcome you to the mother church of the Catholic Archdiocese of Calabar — a place of prayer, pilgrimage, and the celebration of the Holy Sacraments.</p>
+      <blockquote class="hero-quote reveal-left reveal-delay-2">
+        &ldquo;Come to me, all you who labour and are burdened, and I will give you rest.&rdquo;
+        <cite>— A message of welcome from His Grace, Most Rev. Joseph Effiong Ekuwem</cite>
+      </blockquote>
+      <div class="hero-actions reveal-left reveal-delay-3">
+        <a href="#live" class="btn btn-gold"><span class="live-dot" style="background:#4e1620" aria-hidden="true"></span> Watch Sunday Mass Live</a>
+        <a href="#mass" class="btn btn-ghost">View Mass Times</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-controls" aria-label="Hero slider controls">
+    <button class="hero-arrow" id="heroPrev" type="button" aria-label="Previous slide">&#10094;</button>
+    <div class="hero-dots" id="heroDots">
+      <button class="hero-dot active" type="button" aria-label="Go to slide 1"></button>
+      <button class="hero-dot" type="button" aria-label="Go to slide 2"></button>
+      <button class="hero-dot" type="button" aria-label="Go to slide 3"></button>
+    </div>
+    <button class="hero-arrow" id="heroNext" type="button" aria-label="Next slide">&#10095;</button>
+  </div>
+  <div class="hero-scroll" aria-hidden="true">Scroll</div>
+</section>
+
+<!-- ===== ANNOUNCEMENT NOTICEBOARD ===== -->
+<section class="announce" id="announcements" aria-label="Latest announcements">
+  <div class="container">
+    <div class="announce-inner">
+      <div class="announce-label">
+        <span class="live-dot" aria-hidden="true"></span> Latest from the Cathedral
+      </div>
+      <div class="announce-track" id="announceTrack">
+        <div class="announce-slide active"><a href="#">Cathedral announcements — Sunday bulletin now available for download</a></div>
+        <div class="announce-slide"><a href="#">Archbishop's Secretariat notices — pastoral visits schedule updated</a></div>
+        <div class="announce-slide"><a href="#">Upcoming episcopal visit to the Cathedral parish</a></div>
+        <div class="announce-slide"><a href="#">Ordinations and diocesan events announced for this season</a></div>
+        <div class="announce-slide"><a href="#">Parish activities — see what's happening this week</a></div>
+      </div>
+      <a href="#news" class="btn btn-ghost btn-sm">View All News</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MASS TIMES ===== -->
+<section class="section mass-section" id="mass">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Come and Worship</span>
+      <h2>Mass Times &amp; Confession</h2>
+      <div class="divider"></div>
+      <p>Join us in the celebration of the Holy Eucharist. All are welcome at the table of the Lord.</p>
+    </div>
+
+    <div class="mass-grid">
+      <div class="mass-card reveal">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          Sunday Masses
+        </h3>
+        <ul class="mass-list">
+          <li class="mass-row"><span class="mass-time">6:00 AM</span><span class="mass-place">Cathedral</span></li>
+          <li class="mass-row"><span class="mass-time">8:00 AM</span><span class="mass-place">Cathedral</span></li>
+          <li class="mass-row"><span class="mass-time">8:00 AM</span><span class="mass-place">Edibedibe Mass Centre</span></li>
+          <li class="mass-row"><span class="mass-time">8:15 AM</span><span class="mass-place">Shrine — Children's Mass</span></li>
+          <li class="mass-row"><span class="mass-time">10:00 AM</span><span class="mass-place">Cathedral</span></li>
+          <li class="mass-row"><span class="mass-time">10:15 AM</span><span class="mass-place">Shrine — Children's Mass</span></li>
+          <li class="mass-row"><span class="mass-time">5:00 PM</span><span class="mass-place">Rosary &amp; Benediction — Cathedral</span></li>
+          <li class="mass-row"><span class="mass-time">6:00 PM</span><span class="mass-place">Cathedral</span></li>
+        </ul>
+      </div>
+
+      <div class="mass-card reveal reveal-delay-1">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+          Weekday Masses
+        </h3>
+        <div class="mass-day-label">Monday, Tuesday, Thursday &amp; Friday</div>
+        <ul class="mass-list">
+          <li class="mass-row"><span class="mass-time">6:00 AM</span><span class="mass-place">Cathedral</span></li>
+          <li class="mass-row"><span class="mass-time">12:30 PM</span><span class="mass-place">Cathedral</span></li>
+        </ul>
+        <div class="mass-day-label">Wednesday</div>
+        <ul class="mass-list">
+          <li class="mass-row"><span class="mass-time">6:00 AM</span><span class="mass-place">Cathedral</span></li>
+          <li class="mass-row"><span class="mass-time">12:30 PM</span><span class="mass-place">Cathedral</span></li>
+          <li class="mass-row"><span class="mass-time">6:00 PM</span><span class="mass-place">Cathedral</span></li>
+        </ul>
+        <div class="mass-day-label">Saturday</div>
+        <ul class="mass-list">
+          <li class="mass-row"><span class="mass-time">6:00 AM</span><span class="mass-place">Cathedral</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sacraments-mini reveal">
+      <div class="mini-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a5 5 0 0 1 5 5v3a5 5 0 0 1-10 0V7a5 5 0 0 1 5-5z"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg>
+        <div>
+          <strong>Confession</strong>
+          <span>Saturdays immediately after 6:00 AM Mass at the Shrine</span>
+        </div>
+      </div>
+      <div class="mini-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M6 21v-1a6 6 0 0 1 12 0v1"/></svg>
+        <div>
+          <strong>Infant Baptism</strong>
+          <span>Every 1st Saturday of the month during the 6:00 AM Mass</span>
+        </div>
+      </div>
+      <div class="mini-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        <div>
+          <strong>Catechism Classes</strong>
+          <span>Saturdays at 4:00 PM</span>
+        </div>
+      </div>
+      <div class="mini-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        <div>
+          <strong>Marriage Preparation</strong>
+          <span>Saturdays at 5:00 PM</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:40px" class="reveal">
+      <a href="#sacraments" class="btn btn-outline">View Full Schedule</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SACRAMENTS & FORMATION ===== -->
+<section class="section" id="sacraments" style="background:var(--cream)">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Sacraments &amp; Formation</span>
+      <h2>Grow in Faith &amp; Grace</h2>
+      <div class="divider"></div>
+      <p>The seven sacraments are the wellspring of grace in the Christian life. Learn how to receive them at Sacred Heart Cathedral.</p>
+    </div>
+
+    <div class="cards-grid">
+      <article class="sacrament-card reveal">
+        <div class="sacrament-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a5 5 0 0 1 5 5v3a5 5 0 0 1-10 0V7a5 5 0 0 1 5-5z"/><path d="M4 21v-1a6 6 0 0 1 6-6h4a6 6 0 0 1 6 6v1"/></svg>
+        </div>
+        <h3>Baptism</h3>
+        <p>Requirements and preparation information for infant and adult baptism at the Cathedral.</p>
+        <a href="#" class="learn-more">Learn More →</a>
+      </article>
+
+      <article class="sacrament-card reveal reveal-delay-1">
+        <div class="sacrament-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="10"/></svg>
+        </div>
+        <h3>Confirmation</h3>
+        <p>Requirements and registration information for the sacrament of Confirmation.</p>
+        <a href="#" class="learn-more">Learn More →</a>
+      </article>
+
+      <article class="sacrament-card reveal reveal-delay-2">
+        <div class="sacrament-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><path d="M6 1v3M10 1v3M14 1v3"/></svg>
+        </div>
+        <h3>First Holy Communion</h3>
+        <p>Preparation and requirements for children receiving their First Holy Communion.</p>
+        <a href="#" class="learn-more">Learn More →</a>
+      </article>
+
+      <article class="sacrament-card reveal">
+        <div class="sacrament-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+        <h3>Matrimony</h3>
+        <p>Marriage preparation and requirements for couples seeking the sacrament of Holy Matrimony.</p>
+        <a href="#" class="learn-more">Learn More →</a>
+      </article>
+
+      <article class="sacrament-card reveal reveal-delay-1">
+        <div class="sacrament-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Confession</h3>
+        <p>The sacrament of Reconciliation is available every Saturday after the 6:00 AM Mass at the Shrine.</p>
+        <a href="#" class="learn-more">Learn More →</a>
+      </article>
+
+      <article class="sacrament-card reveal reveal-delay-2">
+        <div class="sacrament-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        </div>
+        <h3>Catechism</h3>
+        <p>Catechism classes and formation for children and adults. Saturdays at 4:00 PM.</p>
+        <a href="#" class="learn-more">Learn More →</a>
+      </article>
+
+      <article class="sacrament-card reveal">
+        <div class="sacrament-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>
+        </div>
+        <h3>Mass Intentions</h3>
+        <p>Request a Mass intention online for your loved ones, special intentions, or in thanksgiving.</p>
+        <a href="#mass-intention" class="learn-more">Request →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CLERGY & PARISH STAFF ===== -->
+<section class="section clergy-section" id="about">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Our Shepherds</span>
+      <h2>Meet Our Clergy &amp; Parish Team</h2>
+      <div class="divider"></div>
+      <p>Servants of God, shepherding the flock of Sacred Heart Cathedral with dedication and love.</p>
+    </div>
+
+    <div class="clergy-grid">
+      <article class="clergy-card reveal">
+        <div class="clergy-photo"><span class="clergy-initials">JEE</span></div>
+        <div class="clergy-info">
+          <h3>His Grace, Most Rev. Joseph Effiong Ekuwem</h3>
+          <span class="role">Metropolitan Archbishop</span>
+        </div>
+      </article>
+
+      <article class="clergy-card reveal reveal-delay-1">
+        <div class="clergy-photo"><span class="clergy-initials">COE</span></div>
+        <div class="clergy-info">
+          <h3>Very Rev. Fr. Charles Okon Etim</h3>
+          <span class="role">Administrator</span>
+        </div>
+      </article>
+
+      <article class="clergy-card reveal reveal-delay-2">
+        <div class="clergy-photo"><span class="clergy-initials">VEE</span></div>
+        <div class="clergy-info">
+          <h3>Rev. Fr. Vincent Edetojom Etim</h3>
+          <span class="role">Assistant Administrator</span>
+        </div>
+      </article>
+
+      <article class="clergy-card reveal reveal-delay-3">
+        <div class="clergy-photo"><span class="clergy-initials">FA</span></div>
+        <div class="clergy-info">
+          <h3>Rev. Fr. Felix Akpan</h3>
+          <span class="role">Resident Priest</span>
+        </div>
+      </article>
+
+      <article class="clergy-card reveal reveal-delay-3">
+        <div class="clergy-photo"><span class="clergy-initials">BA</span></div>
+        <div class="clergy-info">
+          <h3>Rev. Fr. Basil Akpan</h3>
+          <span class="role">Resident Priest</span>
+        </div>
+      </article>
+    </div>
+
+    <div class="clergy-sub reveal">
+      <div class="staff-card">
+        <div class="staff-avatar">AN</div>
+        <div>
+          <strong>Mr. Albert Nwaturuocha</strong>
+          <span>Catechist</span>
+        </div>
+      </div>
+      <div class="staff-card">
+        <div class="staff-avatar">BE</div>
+        <div>
+          <strong>Ms. Bibiana Edet</strong>
+          <span>Parish Secretary</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:44px" class="reveal">
+      <a href="#" class="btn btn-gold">View Parish Office Information</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== OFFICE CONSULTATION HOURS ===== -->
+<section class="section-sm" style="background:var(--ivory)">
+  <div class="container">
+    <div class="office-card reveal">
+      <div class="section-head" style="margin-bottom:10px">
+        <span class="eyebrow">Parish Office</span>
+        <h2>Office Consultation Hours</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="office-grid">
+        <div class="office-item">
+          <h4>Administrators</h4>
+          <div class="days">Monday, Tuesday, Wednesday &amp; Friday</div>
+          <div class="time">9:00 AM – 2:00 PM</div>
+        </div>
+        <div class="office-item">
+          <h4>Catechist</h4>
+          <div class="days">Monday, Wednesday, Thursday &amp; Friday</div>
+          <div class="time">8:00 AM – 2:00 PM</div>
+        </div>
+        <div class="office-item">
+          <h4>Secretary</h4>
+          <div class="days">Monday, Tuesday, Wednesday &amp; Friday</div>
+          <div class="time">8:00 AM – 4:00 PM</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== LIVE STREAM ===== -->
+<section class="section live-section" id="live">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Join Us Online</span>
+      <h2>Live from Sacred Heart Cathedral</h2>
+      <div class="divider"></div>
+      <p>Be part of our celebrations from anywhere in the world. Sunday Masses, feast days, special liturgical celebrations and archdiocesan events.</p>
+    </div>
+
+    <div class="live-grid">
+      <div class="live-player reveal">
+        <div class="live-status"><span class="live-dot"></span> Offline</div>
+        <div class="live-player-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+          <h3>Stream will begin shortly</h3>
+          <p>Our next live broadcast is the Sunday Mass. Check the countdown for the next scheduled stream.</p>
+        </div>
+        <!-- Replace placeholder with:
+        <iframe src="https://www.youtube.com/embed/[VIDEO_ID]" title="Sacred Heart Cathedral Live Stream" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        -->
+      </div>
+
+      <div class="live-info reveal reveal-delay-1">
+        <h3>Next Live Broadcast</h3>
+        <p>Sunday Mass — 8:00 AM (WAT)</p>
+        <div class="countdown" id="countdown">
+          <div class="countdown-item"><span class="num" id="cd-days">00</span><span class="label">Days</span></div>
+          <div class="countdown-item"><span class="num" id="cd-hours">00</span><span class="label">Hours</span></div>
+          <div class="countdown-item"><span class="num" id="cd-mins">00</span><span class="label">Mins</span></div>
+          <div class="countdown-item"><span class="num" id="cd-secs">00</span><span class="label">Secs</span></div>
+        </div>
+        <div class="live-actions">
+          <a href="[YouTube Channel URL]" target="_blank" rel="noopener" class="btn btn-gold">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.5 15.5v-7l6.5 3.5-6.5 3.5z"/></svg>
+            Watch on YouTube
+          </a>
+          <a href="[Official Facebook Handle]" target="_blank" rel="noopener" class="btn btn-ghost">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            Watch on Facebook
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DAILY SPIRITUAL CORNER ===== -->
+<section class="section spiritual-section" id="reflections">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Nourish Your Soul</span>
+      <h2>Daily Spiritual Corner</h2>
+      <div class="divider"></div>
+      <p>Begin each day with the Word of God, the example of the saints, and the prayer of the Church.</p>
+    </div>
+
+    <div class="spiritual-grid">
+      <article class="spiritual-card reveal">
+        <span class="spiritual-tag">Saint of the Day</span>
+        <h3>Daily Saint</h3>
+        <p>Discover the life and witness of the saint the Church commemorates today. Their example of faith inspires our own journey.</p>
+        <p class="quote">"The saints are the masterpieces of God's grace."</p>
+        <a href="#" class="learn-more">Read Today's Saint →</a>
+      </article>
+
+      <article class="spiritual-card reveal reveal-delay-1">
+        <span class="spiritual-tag">Sunday Reflection</span>
+        <h3>Weekly Reflection</h3>
+        <p>Reflect on the Sunday readings with insights from our priests and the rich tradition of the Catholic Church.</p>
+        <p class="quote">A homily excerpt or priest's message to accompany your Sunday worship.</p>
+        <a href="#" class="learn-more">Read Reflection →</a>
+      </article>
+
+      <article class="spiritual-card reveal reveal-delay-2">
+        <span class="spiritual-tag">Today's Prayer</span>
+        <h3>A Moment with God</h3>
+        <p>Pause for a short daily prayer or meditation to centre your heart on the Lord and His will for your day.</p>
+        <p class="quote">"Lord, guide my steps and quiet my heart."</p>
+        <a href="#" class="learn-more">Pray Today's Prayer →</a>
+      </article>
+    </div>
+
+    <div style="text-align:center;margin-top:44px" class="reveal">
+      <a href="#" class="btn btn-outline">Explore Reflections</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NEWS & ANNOUNCEMENTS ===== -->
+<section class="section" id="news" style="background:var(--white)">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Stay Informed</span>
+      <h2>Cathedral News &amp; Announcements</h2>
+      <div class="divider"></div>
+      <p>What's happening at Sacred Heart Cathedral and across the Archdiocese of Calabar.</p>
+    </div>
+
+    <div class="news-grid">
+      <article class="news-card reveal">
+        <div class="news-image">
+          <div class="placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg></div>
+          <span class="news-cat">Cathedral News</span>
+        </div>
+        <div class="news-body">
+          <div class="news-date">[Date]</div>
+          <h3>Cathedral News Headline Placeholder</h3>
+          <p>Short excerpt of the article goes here. Content is managed through the parish CMS and updated by the parish office.</p>
+          <a href="#" class="learn-more">Read More →</a>
+        </div>
+      </article>
+
+      <article class="news-card reveal reveal-delay-1">
+        <div class="news-image">
+          <div class="placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg></div>
+          <span class="news-cat">Archdiocesan News</span>
+        </div>
+        <div class="news-body">
+          <div class="news-date">[Date]</div>
+          <h3>Archdiocesan News Headline Placeholder</h3>
+          <p>Short excerpt of the article goes here. Content is managed through the parish CMS and updated by the parish office.</p>
+          <a href="#" class="learn-more">Read More →</a>
+        </div>
+      </article>
+
+      <article class="news-card reveal reveal-delay-2">
+        <div class="news-image">
+          <div class="placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg></div>
+          <span class="news-cat">Events</span>
+        </div>
+        <div class="news-body">
+          <div class="news-date">[Date]</div>
+          <h3>Upcoming Event Headline Placeholder</h3>
+          <p>Short excerpt of the article goes here. Content is managed through the parish CMS and updated by the parish office.</p>
+          <a href="#" class="learn-more">Read More →</a>
+        </div>
+      </article>
+
+      <article class="news-card reveal">
+        <div class="news-image">
+          <div class="placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg></div>
+          <span class="news-cat">Announcements</span>
+        </div>
+        <div class="news-body">
+          <div class="news-date">[Date]</div>
+          <h3>Announcement Headline Placeholder</h3>
+          <p>Short excerpt of the article goes here. Content is managed through the parish CMS and updated by the parish office.</p>
+          <a href="#" class="learn-more">Read More →</a>
+        </div>
+      </article>
+    </div>
+
+    <div style="text-align:center;margin-top:44px" class="reveal">
+      <a href="#" class="btn btn-outline">View All News</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MINISTRIES & SOCIETIES ===== -->
+<section class="section ministries-section" id="ministries">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Get Involved</span>
+      <h2>Ministries &amp; Parish Groups</h2>
+      <div class="divider"></div>
+      <p>There is a place for everyone at Sacred Heart Cathedral. Join a ministry and grow in faith and service.</p>
+    </div>
+
+    <div class="ministry-cat reveal">
+      <h3>Lay Movements</h3>
+      <div class="ministry-grid">
+        <div class="ministry-card"><div class="ministry-abbr">CMO</div><strong>Catholic Men's Organisation</strong></div>
+        <div class="ministry-card"><div class="ministry-abbr">CWO</div><strong>Catholic Women's Organisation</strong></div>
+        <div class="ministry-card"><div class="ministry-abbr">CYON</div><strong>Catholic Youth Organisation of Nigeria</strong></div>
+        <div class="ministry-card"><div class="ministry-abbr">MOD</div><strong>Missionary Organisation of the Deaf</strong></div>
+      </div>
+    </div>
+
+    <div class="ministry-cat reveal">
+      <h3>Pious Societies</h3>
+      <div class="ministry-grid">
+        <div class="ministry-card"><div class="ministry-abbr">SHJ</div><strong>Sacred Heart of Jesus</strong></div>
+        <div class="ministry-card"><div class="ministry-abbr">IHM</div><strong>Immaculate Heart of Mary</strong></div>
+        <div class="ministry-card"><div class="ministry-abbr">LoM</div><strong>Legion of Mary</strong></div>
+        <div class="ministry-card"><div class="ministry-abbr">CCRN</div><strong>Catholic Charismatic Renewal</strong></div>
+        <div class="ministry-card"><div class="ministry-abbr">BRC</div><strong>Block Rosary Crusade</strong></div>
+        <div class="ministry-card"><div class="ministry-abbr">WAF</div><strong>World Apostolate of Fatima</strong></div>
+        <div class="ministry-card"><div class="ministry-abbr">StJ</div><strong>St. Jude Society</strong></div>
+        <div class="ministry-card"><div class="ministry-abbr">PS</div><strong>Purgatorian Society</strong></div>
+        <div class="ministry-card"><div class="ministry-abbr">HFG</div><strong>Holy Family Guild</strong></div>
+      </div>
+    </div>
+
+    <div class="ministry-cat reveal">
+      <h3>Liturgical &amp; Charitable</h3>
+      <div class="ministry-grid">
+        <div class="ministry-card"><div class="ministry-abbr">AS</div><strong>Altar Servers</strong></div>
+        <div class="ministry-card"><div class="ministry-abbr">ML</div><strong>Mary League</strong></div>
+        <div class="ministry-card"><div class="ministry-abbr">SVP</div><strong>Society of St. Vincent de Paul</strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GIVING ===== -->
+<section class="section giving-section" id="giving">
+  <div class="container">
+    <div class="giving-inner">
+      <div class="reveal-left">
+        <span class="eyebrow">Stewardship</span>
+        <h2>Support the Mission of the Cathedral</h2>
+        <p>Your generous giving supports worship, evangelization, parish activities, projects and the maintenance of Sacred Heart Cathedral. Every contribution, no matter the size, advances the work of the Gospel in the Archdiocese of Calabar.</p>
+        <ul class="giving-features">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Tithe, Offering &amp; Mass Stipends</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Project Support Fund</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Church Maintenance Fund</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Annual Harvest</li>
+        </ul>
+        <a href="#" class="btn btn-gold">Give / View Bank Details</a>
+      </div>
+
+      <div class="giving-visual reveal reveal-delay-1">
+        <div class="giving-stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          <strong>Tithe &amp; Offering</strong>
+          <span>Sacred Heart Cathedral</span>
+        </div>
+        <div class="giving-stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4"/></svg>
+          <strong>Project Support</strong>
+          <span>Cathedral Projects</span>
+        </div>
+        <div class="giving-stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          <strong>Maintenance</strong>
+          <span>Church Maintenance</span>
+        </div>
+        <div class="giving-stat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/><path d="M12 6v6l4 2"/></svg>
+          <strong>Annual Harvest</strong>
+          <span>Harvest Account</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CATHEDRAL HISTORY ===== -->
+<section class="section" id="history" style="background:var(--ivory)">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Our Heritage</span>
+      <h2>Our History</h2>
+      <div class="divider"></div>
+      <p>The story of Sacred Heart Cathedral is a story of faith, sacrifice and God's faithfulness through the decades.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-spacer"></div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">[Year]</span>
+          <h4>Founding of the Cathedral</h4>
+          <p>[Historical milestone placeholder — official history to be supplied by the parish.]</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-spacer"></div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">[Year]</span>
+          <h4>Creation of the Archdiocese</h4>
+          <p>[Historical milestone placeholder — official history to be supplied by the parish.]</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-spacer"></div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">[Year]</span>
+          <h4>Development &amp; Expansion</h4>
+          <p>[Historical milestone placeholder — official history to be supplied by the parish.]</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-spacer"></div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-year">Today</span>
+          <h4>A Living Parish</h4>
+          <p>[Historical milestone placeholder — official history to be supplied by the parish.]</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PARISH BULLETIN ===== -->
+<section class="section-sm" id="bulletin" style="background:var(--white)">
+  <div class="container">
+    <div class="bulletin-card reveal">
+      <div class="bulletin-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>
+      </div>
+      <div class="bulletin-info">
+        <span class="eyebrow" style="margin-bottom:6px">This Week's Parish Bulletin</span>
+        <h3>Sunday Bulletin — [Date]</h3>
+        <p>Stay connected with the life of the parish. Download this week's bulletin for Mass intentions, announcements and parish activities.</p>
+      </div>
+      <div>
+        <a href="#" class="btn btn-primary">Download Bulletin PDF</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== LOCATION ===== -->
+<section class="section location-section" id="location">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Find Us</span>
+      <h2>Visit Sacred Heart Cathedral</h2>
+      <div class="divider"></div>
+      <p>We would be delighted to welcome you in person. Come and worship with us.</p>
+    </div>
+
+    <div class="location-grid reveal">
+      <div class="location-info">
+        <h2 style="font-size:1.8rem">Sacred Heart Cathedral</h2>
+        <p>Catholic Archdiocese of Calabar</p>
+
+        <div class="location-detail">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div>
+            <strong>Address</strong>
+            <span>[Cathedral Address], Calabar, Cross River State, Nigeria</span>
+          </div>
+        </div>
+
+        <div class="location-detail">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <div>
+            <strong>Phone</strong>
+            <span>[Official Phone Number]</span>
+          </div>
+        </div>
+
+        <div class="location-detail">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          <div>
+            <strong>WhatsApp</strong>
+            <span>[Official WhatsApp Number]</span>
+          </div>
+        </div>
+
+        <div class="location-detail">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+          <div>
+            <strong>Email</strong>
+            <span>[Parish Email]</span>
+          </div>
+        </div>
+
+        <div class="location-actions">
+          <a href="https://maps.google.com/?q=Sacred+Heart+Cathedral+Calabar" target="_blank" rel="noopener" class="btn btn-primary">Get Directions</a>
+          <a href="mailto:[Parish Email]" class="btn btn-outline">Contact Parish Office</a>
+        </div>
+      </div>
+
+      <div class="location-map">
+        <iframe src="https://www.google.com/maps?q=Sacred+Heart+Cathedral+Calabar&output=embed" title="Sacred Heart Cathedral location map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MASS INTENTION FORM ===== -->
+<section class="section" id="mass-intention" style="background:var(--cream)">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Prayer Requests</span>
+      <h2>Request a Mass Intention</h2>
+      <div class="divider"></div>
+      <p>Submit your Mass intention online. The parish office will confirm your request.</p>
+    </div>
+
+    <form class="office-card reveal" style="max-width:820px" onsubmit="event.preventDefault(); this.querySelector('.form-note').style.display='block';">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:.82rem;font-weight:600;color:var(--burgundy-dark)">
+          Full Name
+          <input type="text" required style="padding:12px 14px;border:1px solid var(--grey-light);border-radius:var(--radius);font-family:inherit;font-size:.9rem;background:var(--white)">
+        </label>
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:.82rem;font-weight:600;color:var(--burgundy-dark)">
+          Email
+          <input type="email" required style="padding:12px 14px;border:1px solid var(--grey-light);border-radius:var(--radius);font-family:inherit;font-size:.9rem;background:var(--white)">
+        </label>
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:.82rem;font-weight:600;color:var(--burgundy-dark)">
+          Phone / WhatsApp
+          <input type="tel" style="padding:12px 14px;border:1px solid var(--grey-light);border-radius:var(--radius);font-family:inherit;font-size:.9rem;background:var(--white)">
+        </label>
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:.82rem;font-weight:600;color:var(--burgundy-dark)">
+          Preferred Date
+          <input type="date" style="padding:12px 14px;border:1px solid var(--grey-light);border-radius:var(--radius);font-family:inherit;font-size:.9rem;background:var(--white)">
+        </label>
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:.82rem;font-weight:600;color:var(--burgundy-dark);grid-column:1/-1">
+          Mass Intention
+          <textarea rows="4" required style="padding:12px 14px;border:1px solid var(--grey-light);border-radius:var(--radius);font-family:inherit;font-size:.9rem;background:var(--white);resize:vertical"></textarea>
+        </label>
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:.82rem;font-weight:600;color:var(--burgundy-dark)">
+          Intention Type
+          <select style="padding:12px 14px;border:1px solid var(--grey-light);border-radius:var(--radius);font-family:inherit;font-size:.9rem;background:var(--white)">
+            <option>Thanksgiving</option>
+            <option>Repose of Soul</option>
+            <option>Healing</option>
+            <option>Special Intention</option>
+          </select>
+        </label>
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:.82rem;font-weight:600;color:var(--burgundy-dark)">
+          Payment Receipt Upload
+          <input type="file" accept="image/*,.pdf" style="padding:10px 0;font-size:.85rem">
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary" style="margin-top:26px;width:100%;justify-content:center">Submit Request</button>
+      <p class="form-note" style="display:none;margin-top:18px;padding:16px;background:#e8f4ec;border-left:3px solid #2e7d4f;border-radius:var(--radius);color:#2e7d4f;font-size:.9rem">
+        ✓ Thank you. Your Mass intention has been submitted. The parish office will contact you to confirm.
+      </p>
+    </form>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-mark" aria-hidden="true">✝</div>
+          <div class="logo-text">
+            <strong>Sacred Heart Cathedral</strong>
+            <span>Catholic Archdiocese of Calabar</span>
+          </div>
+        </div>
+        <p>A sacred home of faith, worship and community in the heart of Calabar. All are welcome.</p>
+        <div class="social-links" style="margin-top:22px">
+          <a href="[Official Facebook Handle]" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="[YouTube Channel URL]" target="_blank" rel="noopener" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.5 15.5v-7l6.5 3.5-6.5 3.5z"/></svg>
+          </a>
+          <a href="[Official Instagram Handle]" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#mass">Mass &amp; Sacraments</a></li>
+          <li><a href="#ministries">Ministries &amp; Groups</a></li>
+          <li><a href="#reflections">Reflections</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#giving">Giving</a></li>
+          <li><a href="#live">Live Stream</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>[Official Phone Number]</span>
+        </div>
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A7.85 7.85 0 0 0 12.05 4a7.94 7.94 0 0 0-6.9 11.9L4 20l4.2-1.1a7.9 7.9 0 0 0 3.85 1h.01a7.94 7.94 0 0 0 5.54-13.58z"/></svg>
+          <span>[Official WhatsApp Number]</span>
+        </div>
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+          <span>[Parish Email]</span>
+        </div>
+        <div class="contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>[Cathedral Address], Calabar</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <ul>
+          <li><a href="[Official Facebook Handle]" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="[YouTube Channel URL]" target="_blank" rel="noopener">YouTube</a></li>
+          <li><a href="[Official Instagram Handle]" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Sacred Heart Cathedral, Catholic Archdiocese of Calabar. All Rights Reserved.</p>
+      <div class="diocese">Catholic Archdiocese of Calabar</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+// ===== YEAR =====
+document.getElementById('year').textContent = new Date().getFullYear();
+
+// ===== HEADER SCROLL SHADOW =====
+const header = document.getElementById('header');
+window.addEventListener('scroll', () => {
+  header.classList.toggle('scrolled', window.scrollY > 20);
+}, {passive:true});
+
+// ===== MOBILE NAV =====
+const hamburger = document.getElementById('hamburger');
+const mobileNav = document.getElementById('mobileNav');
+const overlay = document.getElementById('overlay');
+const mobileClose = document.getElementById('mobileClose');
+
+function openNav(){
+  mobileNav.classList.add('open');
+  overlay.classList.add('active');
+  hamburger.classList.add('active');
+  hamburger.setAttribute('aria-expanded','true');
+  document.body.style.overflow = 'hidden';
+}
+function closeNav(){
+  mobileNav.classList.remove('open');
+  overlay.classList.remove('active');
+  hamburger.classList.remove('active');
+  hamburger.setAttribute('aria-expanded','false');
+  document.body.style.overflow = '';
+}
+hamburger.addEventListener('click', openNav);
+mobileClose.addEventListener('click', closeNav);
+overlay.addEventListener('click', closeNav);
+mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', closeNav));
+
+// ===== MOBILE ACCORDION SUBMENUS =====
+document.querySelectorAll('.mobile-group-toggle').forEach(toggle => {
+  toggle.addEventListener('click', () => {
+    const target = document.getElementById(toggle.dataset.target);
+    const isOpen = target.classList.contains('open');
+    // Close all others
+    document.querySelectorAll('.mobile-submenu').forEach(m => m.classList.remove('open'));
+    document.querySelectorAll('.mobile-group-toggle').forEach(t => t.classList.remove('active'));
+    // Toggle current
+    if(!isOpen){
+      target.classList.add('open');
+      toggle.classList.add('active');
+    }
+  });
+});
+
+// ===== HERO SLIDER =====
+const heroSlides = document.querySelectorAll('.hero-slide');
+const heroDots = document.querySelectorAll('.hero-dot');
+const heroPrev = document.getElementById('heroPrev');
+const heroNext = document.getElementById('heroNext');
+let heroIndex = 0;
+let heroTimer;
+
+function showHeroSlide(index){
+  heroIndex = (index + heroSlides.length) % heroSlides.length;
+  heroSlides.forEach((slide,i) => slide.classList.toggle('active', i === heroIndex));
+  heroDots.forEach((dot,i) => dot.classList.toggle('active', i === heroIndex));
+}
+function resetHeroTimer(){
+  clearInterval(heroTimer);
+  heroTimer = setInterval(() => showHeroSlide(heroIndex + 1), 6000);
+}
+heroPrev.addEventListener('click', () => { showHeroSlide(heroIndex - 1); resetHeroTimer(); });
+heroNext.addEventListener('click', () => { showHeroSlide(heroIndex + 1); resetHeroTimer(); });
+heroDots.forEach((dot,i) => dot.addEventListener('click', () => { showHeroSlide(i); resetHeroTimer(); }));
+resetHeroTimer();
+
+// ===== ANNOUNCEMENT ROTATION =====
+const slides = document.querySelectorAll('.announce-slide');
+let currentSlide = 0;
+setInterval(() => {
+  if(slides.length === 0) return;
+  slides[currentSlide].classList.remove('active');
+  currentSlide = (currentSlide + 1) % slides.length;
+  slides[currentSlide].classList.add('active');
+}, 5000);
+
+// ===== SCROLL REVEAL =====
+const revealEls = document.querySelectorAll('.reveal, .reveal-left');
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add('visible');
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12, rootMargin: '0px 0px -50px 0px' });
+revealEls.forEach(el => revealObserver.observe(el));
+
+// ===== COUNTDOWN TO NEXT SUNDAY 8:00 AM =====
+function getNextSundayMass(){
+  const now = new Date();
+  const target = new Date();
+  target.setHours(8, 0, 0, 0);
+  const day = now.getDay();
+  let daysUntil = (7 - day) % 7;
+  if(daysUntil === 0 && now.getHours() >= 8) daysUntil = 7;
+  target.setDate(target.getDate() + daysUntil);
+  return target;
+}
+function updateCountdown(){
+  const now = new Date();
+  const target = getNextSundayMass();
+  let diff = Math.max(0, target - now);
+  const days = Math.floor(diff / (1000*60*60*24));
+  diff -= days * (1000*60*60*24);
+  const hours = Math.floor(diff / (1000*60*60));
+  diff -= hours * (1000*60*60);
+  const mins = Math.floor(diff / (1000*60));
+  diff -= mins * (1000*60);
+  const secs = Math.floor(diff / 1000);
+  const pad = n => String(n).padStart(2,'0');
+  const el = id => document.getElementById(id);
+  if(el('cd-days')) el('cd-days').textContent = pad(days);
+  if(el('cd-hours')) el('cd-hours').textContent = pad(hours);
+  if(el('cd-mins')) el('cd-mins').textContent = pad(mins);
+  if(el('cd-secs')) el('cd-secs').textContent = pad(secs);
+}
+updateCountdown();
+setInterval(updateCountdown, 1000);
+
+// ===== SMOOTH SCROLL =====
+const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+  link.addEventListener('click', (e) => {
+    const targetId = link.getAttribute('href');
+    if(targetId === '#') return;
+    const targetEl = document.querySelector(targetId);
+    if(targetEl){
+      e.preventDefault();
+      const offset = header.offsetHeight + 10;
+      const top = targetEl.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top, behavior: prefersReduced ? 'auto' : 'smooth' });
+    }
+  });
+});
+</script>
+</body>
+</html>
